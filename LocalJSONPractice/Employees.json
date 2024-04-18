@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Hadassah McMahon",
+        "role": "CEO",
+        "years_in_role": 4
+    },
+    {
+        "name": "Jakob Becker",
+        "role": "IT Analyst",
+        "years_in_role": 3
+    },
+    {
+        "name": "Laura Grant",
+        "role": "Senior Software Engineer",
+        "years_in_role": 8
+    },
+    {
+        "name": "Leon Zamora",
+        "role": "Product Design Intern",
+        "years_in_role": 1
+    },
+    {
+        "name": "Sierra Turner",
+        "role": "Software Engineer in Test",
+        "years_in_role": 3
+    },
+    {
+        "name": "Joshua Joshuason",
+        "role": "Insufferable Devil's Advocate",
+        "years_in_role": 12
+    }
+]

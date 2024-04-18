@@ -1,21 +1,28 @@
-//
-//  ContentView.swift
-//  LocalJSONPractice
-//
-//  Created by Zoe Cutler on 4/18/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = ViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            Section("Company") {
+                if let company = viewModel.company {
+                    Text(company.name)
+                } else {
+                    Text("company not loaded")
+                }
+            }
+            
+            Section("Employees: \(viewModel.employees.count)") {
+                ForEach(viewModel.employees, id: \.name) { employee in
+                    VStack {
+                        Text(employee.name)
+                        Text(employee.role)
+                        Text("here for \(employee.years_in_role) years")
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
