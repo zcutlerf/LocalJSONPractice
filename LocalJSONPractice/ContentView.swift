@@ -7,7 +7,11 @@ struct ContentView: View {
         List {
             Section("Company") {
                 if let company = viewModel.company {
-                    Text(company.name)
+                    VStack {
+                        Text(company.name)
+                        Text(company.address)
+                        Text("founded \(company.year_founded)")
+                    }
                 } else {
                     Text("company not loaded")
                 }
