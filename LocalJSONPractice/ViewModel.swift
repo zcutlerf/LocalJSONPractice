@@ -12,14 +12,19 @@ class ViewModel: ObservableObject {
     
 #warning("TODO: Complete getCompany() method.")
     func getCompany() -> Company? {
-        // 1. Read Data from file
-        
-        // 2. Try to decode Data into a Company
-        
-        // 3. If it works, return the decoded Company
-        
-        // 4. If it doesn't work, print the error and return nil
-        return nil
+        do {
+            // 1. Read Data from file
+            let data = try FileService.data(from: "Company", extension: "json")
+            
+            // 2. Try to decode Data into a Company
+            
+            // 3. If it works, return the decoded Company
+            
+        } catch {
+            // 4. If it doesn't work, print the error and return nil
+            print(error.localizedDescription)
+            return nil
+        }
     }
     
 #warning("TODO: Complete getEmployees() method.")

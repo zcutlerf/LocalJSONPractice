@@ -16,6 +16,7 @@
 		5DF227AB2BD1526B00CDEEA1 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF227AA2BD1526B00CDEEA1 /* Company.swift */; };
 		5DF227AD2BD153D500CDEEA1 /* Company.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DF227AC2BD153D500CDEEA1 /* Company.json */; };
 		5DF227B12BD153FA00CDEEA1 /* Employees.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DF227B02BD153FA00CDEEA1 /* Employees.json */; };
+		5DF227B42BD1597300CDEEA1 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF227B32BD1597300CDEEA1 /* FileService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5DF227AA2BD1526B00CDEEA1 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		5DF227AC2BD153D500CDEEA1 /* Company.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Company.json; sourceTree = "<group>"; };
 		5DF227B02BD153FA00CDEEA1 /* Employees.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Employees.json; sourceTree = "<group>"; };
+		5DF227B22BD157C700CDEEA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5DF227B32BD1597300CDEEA1 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		5DF2278C2BD1522400CDEEA1 = {
 			isa = PBXGroup;
 			children = (
+				5DF227B22BD157C700CDEEA1 /* README.md */,
 				5DF227972BD1522400CDEEA1 /* LocalJSONPractice */,
 				5DF227962BD1522400CDEEA1 /* Products */,
 			);
@@ -66,6 +70,7 @@
 				5DF227A62BD1523300CDEEA1 /* ViewModel.swift */,
 				5DF227AA2BD1526B00CDEEA1 /* Company.swift */,
 				5DF227A82BD1526600CDEEA1 /* Employee.swift */,
+				5DF227B32BD1597300CDEEA1 /* FileService.swift */,
 				5DF227AC2BD153D500CDEEA1 /* Company.json */,
 				5DF227B02BD153FA00CDEEA1 /* Employees.json */,
 				5DF2279C2BD1522600CDEEA1 /* Assets.xcassets */,
@@ -159,6 +164,7 @@
 				5DF227A72BD1523300CDEEA1 /* ViewModel.swift in Sources */,
 				5DF227AB2BD1526B00CDEEA1 /* Company.swift in Sources */,
 				5DF227992BD1522400CDEEA1 /* LocalJSONPracticeApp.swift in Sources */,
+				5DF227B42BD1597300CDEEA1 /* FileService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
